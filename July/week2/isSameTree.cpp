@@ -45,7 +45,7 @@ private:
             
             if(curr_p->left == NULL || curr_q->left == NULL)                //L
             {
-                //after checking left, we have to check right, not return directly
+                //note : after checking left, we have to check right, not return directly
                 if(curr_p->left != NULL)
                 {
                     same_check = false;
